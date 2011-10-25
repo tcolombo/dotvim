@@ -1,0 +1,6 @@
+[submodule "/home/tristan/.vim/autoload/pathogen"]
+	path = /home/tristan/.vim/autoload/pathogen
+	url = https://github.com/tpope/vim-pathogen.git
+[submodule "bundle/pep8"]
+	path = bundle/pep8
+	url = https://github.com/vim-scripts/pep8.git
