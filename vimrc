@@ -57,3 +57,7 @@ if 'VIRTUAL_ENV' in os.environ:
     activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
     execfile(activate_this, dict(__file__=activate_this))
 EOF
+
+" Activation des snippets Django pour les fichiers python et html
+autocmd FileType python set ft=python.django
+autocmd FileType html set ft=htmldjango.html
