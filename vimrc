@@ -61,3 +61,7 @@ EOF
 " Activation des snippets Django pour les fichiers python et html
 autocmd FileType python set ft=python.django
 autocmd FileType html set ft=htmldjango.html
+
+" Activation de la barre de status de fugitive
+set laststatus=2
+set statusline=[%l,%v\ %P%M]\ %f\ %r%h%w\ (%{&ff})\ %{fugitive#statusline()}
