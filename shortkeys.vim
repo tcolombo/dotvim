@@ -18,3 +18,8 @@ map <C-t> <Plug>TaskList
 
 " Affichage de l'historique des modifications
 map <C-h> <Esc>:GundoToggle<CR>
+
+" Exécution des tests unitaires
+nmap <silent><Leader>tf <Esc>:Pytest file<CR>
+nmap <silent><Leader>tc <Esc>:Pytest class<CR>
+nmap <silent><Leader>tm <Esc>:Pytest method<CR>
