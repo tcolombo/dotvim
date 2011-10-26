@@ -58,3 +58,6 @@
 [submodule "bundle/vim-align"]
 	path = bundle/vim-align
 	url = https://github.com/tsaleh/vim-align.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = https://github.com/tpope/vim-surround.git
