@@ -1,3 +1,6 @@
 VIM REMINDER
 
 <F1> : Display this screen
+<F2> : Django doc
+<F3> : ^M code cleaner
+<F4> : Toggle Mouse mode
