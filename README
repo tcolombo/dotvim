@@ -12,7 +12,7 @@ Create symlink:
 
 Install packages :
 
-    sudo aptitude install git pep8 exuberant-ctags python-rope ruby
+    sudo aptitude install git pep8 exuberant-ctags python-rope ruby rake
     cd ~/.vim/bundle/command-t
     rake make
 
