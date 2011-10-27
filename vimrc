@@ -110,3 +110,11 @@ highlight LineNr ctermbg=blue ctermfg=gray
 
 " Surligne la colonne du dernier caractère autorisé par textwidth
 set cc=+1
+
+" Ouverture des fichiers avec le curseur à la position de la dernière édition
+function! s:CursorOldPosition()
+  if line("'\"") > 0 && line("'\"") <= line("$")
+    exe "normal g`\""
+  endif
+endfunction
+autocmd BufReadPost * silent! call s:CursorOldPosition()
