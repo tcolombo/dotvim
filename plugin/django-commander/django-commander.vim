@@ -5,11 +5,7 @@
 " Version: 0.1
 "
 " Description: {{{
-"   Use your tab key to do all your completion in insert mode!
-"   You can cycle forward and backward with the <Tab> and <S-Tab> keys
-"   Note: you must press <Tab> once to be able to cycle back
-"
-"   http://www.vim.org/scripts/script.php?script_id=1643
+"   Plugin dedicated to Django usage : documentation and shortcuts.
 " }}}
 "
 " Copyright: {{{
