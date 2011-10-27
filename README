@@ -10,17 +10,22 @@ Create symlink:
     ln -s ~/.vim/vimrc ~/.vimrc
 
 
-Install packages :
+Install packages:
 
     sudo aptitude install git pep8 exuberant-ctags python-rope ruby rake
-    cd ~/.vim/bundle/command-t
-    rake make
 
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
     cd ~/.vim
+    git submodule sync
     git submodule init
     git submodule update
     git submodule foreach git submodule init
     git submodule foreach git submodule update
+    
+    
+Compile command-t:
+
+    cd ~/.vim/bundle/command-t
+    rake make
