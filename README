@@ -12,7 +12,8 @@ Create symlink:
 
 Install packages:
 
-    sudo aptitude install git pep8 exuberant-ctags python-rope ruby rake
+    sudo aptitude install git pep8 exuberant-ctags python-rope ruby1.8-dev
+                          rake
 
 
 Switch to the `~/.vim` directory, and fetch submodules:
