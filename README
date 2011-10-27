@@ -1,0 +1,27 @@
+This project is a Vim configuration Python and Django dedicated.
+
+Installation:
+
+    git clone git://github.com/tcolombo/dotvim.git ~/.vim
+
+
+Create symlinks:
+
+    ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/gvimrc ~/.gvimrc
+
+
+Install packages :
+
+    sudo aptitude install git pep8 exuberant-ctags python-rope ruby
+    cd ~/.vim/bundle/command-t
+    rake make
+
+
+Switch to the `~/.vim` directory, and fetch submodules:
+
+    cd ~/.vim
+    git submodule init
+    git submodule update
+    git submodule foreach git submodule init
+    git submodule foreach git submodule update
