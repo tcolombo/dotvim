@@ -1,0 +1,3 @@
+VIM REMINDER
+
+<F1> : Display this screen
