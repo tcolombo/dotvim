@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/usr/share/X11/xorg.conf.d'
-let g:netrw_dirhist_2='/home/tristan/Documents/Diamond_Editions/Linux_Magazine/En_Cours/hs_django/hs_django/hsjdr'
-let g:netrw_dirhist_3='/home/tristan/Documents/Diamond_Editions/Linux_Magazine/En_Cours/phonegap/src/hemomap/assets/www'
-let g:netrw_dirhist_4='/home/tristan/Telechargements/v0.3/src/moteur'
