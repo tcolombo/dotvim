@@ -1,13 +1,14 @@
 " Chargement de Pathogen
 call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 call pathogen#helptags()
 
 " Activation de l'indentation automatique
 set autoindent
 " Redéfinition des tabulations
 set expandtab
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=2
+set softtabstop=2
 set tabstop=8
 " Activation de la détection automatique du type de fichier
 filetype on
